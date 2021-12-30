@@ -1,0 +1,105 @@
+
+* {
+    margin: 0;  
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  @font-face {
+      font-family:test ;
+      src: url(./Fonts/myfirstfont-webfont.woff2)format('woff2'),
+      url(./Fonts/myfirstfont-webfont.woff) format('woff')
+  }
+  body {
+    background-color: #fdf1ec;
+    font-family: test;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+         
+}
+
+  /*header section */
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 35px;
+  }
+
+  header h1 {
+      font-size: 50px;
+      color: rgb(231, 164, 164);
+      border-bottom: 3px solid black;
+padding-bottom: 5px;
+  }
+
+
+  /*Links to the different sections on the page */
+  .sub nav {
+      float: right;
+  }
+  
+.sub nav ul li:hover{
+    background-color: #E3B448;
+    
+}
+  .sub nav ul li {
+    display: inline;
+    font-size: 25px;
+    }
+    a {
+        color: black;
+    }
+  
+    div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+ 
+/*about me section in the body */
+  .about-me {
+      display: flex;
+      justify-content:space-between;
+}
+
+  .about-me h2{
+      font-size: 70px;
+      border-right: solid;
+  }
+  .about-me p{
+      flex-wrap: wrap;
+  }
+
+  /*projects*/
+  .work{
+   display: flex;
+   justify-content:center;
+  }
+  .work h2{
+      font-size: 70px;
+  }
+  .projects{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    flex: 0 0 600px;
+  }
+
+      /*contact me section */
+  .Contact-Me h2{
+      font-size: 45px;
+
+  }
+  .Contact-Me a{
+  font-size: 20px;
+}
+  @media only screen and (max-width: 600px) {
+    section {
+      flex-direction: column;
+    }
+  }
