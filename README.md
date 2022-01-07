@@ -12,5 +12,6 @@ Features!
 
 While working on this project I was able to challenge myself by using new fonts and centering the header and nav bar in a way that I havent been able to before!
 
+https://github.com/MickieBurch/Portfolio/issues/1#issue-1095926174
 
 Link to project: https://mickieburch.github.io/Portfolio/
